@@ -85,4 +85,4 @@ Repository containing algorithmic problem solutions showcasing strong problem-so
 
 ---
 
-⭐️ From [AbdelazizMoustafa](https://github.com/AbdelazizMoustafa)
+⭐️ From [AbdelazizMoustafa](https://github.com/AbdelazizMoustafa10M)
