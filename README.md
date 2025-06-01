@@ -1,75 +1,90 @@
-# Hi there, I'm Abdelaziz Abdelrasol 👋
+# Hi there, I'm Abdelaziz Abdelrasol 👋  
+**GenAI Engineer | Embedded Software Expert | AI Systems Developer**
 
-Embedded Software Engineer with a passion for innovation, currently expanding into AI and ML technologies.
+---
 
-## 🚀 About Me
+🚀 **About Me**
 
-I'm an experienced Embedded Software Engineer specializing in automotive embedded systems with a strong background in Flash Bootloader and On-the-Fly Reprogramming (OFR) development. I've successfully delivered projects for major OEMs including Mercedes-Benz, VW, and Renault. Currently, I'm expanding my skills into AI, Machine Learning, and Natural Language Processing through practical projects.
+I'm a passionate **GenAI Engineer at Vector Informatik GmbH**, leading the development of AI-driven systems for internal clients using **Python, FastAPI, LlamaIndex, and cloud-native technologies**. With a strong foundation in **automotive embedded systems**, I've delivered Flash Bootloaders and On-the-Fly Reprogramming (OFR) for major OEMs like **Mercedes-Benz, VW, and Renault**.
 
-- 🔭 I'm currently working at **Vector Informatik GmbH** as an Embedded Software Engineer
-- 🌱 I'm expanding my expertise to include **AI, RAG (Retrieval Augmented Generation), and Python**
-- 👨‍💻 I've worked on Flash Bootloaders for RH850, Tricore, and ARM MCUs
-- 🌟 Feature Owner for FBL/OFR topics at Vector Informatik
-- 📚 I was an **Embedded Systems Instructor on Udemy**
-- 🌍 Located in **Stuttgart, Germany**
+I now focus on **Generative AI (GenAI)**—from **LLM fine-tuning and RAG systems to AI infrastructure**—while still bringing deep embedded engineering know-how into AI-powered domains.
 
-## 💼 Professional Experience
+---
 
-- **Embedded Software Engineer** at Vector Informatik GmbH (Apr 2023 - Present)
-  - Lead Flash Bootloader (FBL) and On-the-Fly Reprogramming (OFR) development
-  - Feature Owner for FBL/OFR with direct Mercedes-Benz communication
-  - Mentor and onboard team members on FBL/OFR topics
+💼 **Current Role**
 
-- **Embedded Software Engineer** at Bosch (Jul 2022 - Mar 2023)
-  - Performed integration and deliveries of HSM using BEST tool
+🧠 **GenAI Engineer @ Vector Informatik GmbH** (2025 – Present)  
+- Building GenAI systems using **Python**, **FastAPI**, and **LlamaIndex**  
+- Developing backend infrastructure for **LLM agents**, **prompt engineering**, and **vector databases**  
+- Contributing to AI enablement across Vector using **Azure**, **Docker**, and **Kubernetes**
 
-- **Embedded Software Engineer** at Valeo (Jan 2021 - Jun 2022)
-  - Developed Bootloader software for RH850, Tricore, and ARM MCUs
-  - Implemented Porsche ECU downgrade protection based on VW requirements
-  - Designed 4-layer Bootloader architecture for multi-OEM compatibility
+🛠 Previously:  
+- Embedded Software Engineer @ Vector Informatik (2023–2025)  
+- Embedded Software Engineer @ Bosch & Valeo (2021–2023)  
+- Instructor on Udemy – Created **C & Arduino programming courses**
 
-## 💻 Technical Skills
+---
 
-### Embedded Systems
-- **Languages:** C, C++
-- **Protocols:** CAN/CANFD, CANTP, UDS ISO 14229-1
-- **Tools:** DaVinci tools, CANoe, VectorCAST, EB Tresos, Git/SVN
-- **Specialties:** Flash Bootloader, OTA, AUTOSAR, DCM, MISRA-C, SW design
+🧠 **Technical Skills**
 
-### AI & Software Development
-- **Languages:** Python
-- **Technologies:** Retrieval Augmented Generation (RAG), LLM Integration
-- **Frameworks:** FastAPI, LlamaIndex, OpenAI API
-- **Data Processing:** DataFrame operations, CSV/Excel handling
-- **Database:** PostgreSQL, Supabase Vector DB
+**Generative AI & Backend Systems**  
+- LLMs, RAG (Retrieval-Augmented Generation), Fine-Tuning  
+- FastAPI, Pydantic, LangChain, OpenAI API, Supabase Vector DB  
+- Docker, Kubernetes, Azure, PostgreSQL  
 
-## 🔧 Projects
+**Embedded Systems**  
+- Languages: C, C++  
+- Technologies: AUTOSAR, UDS, CAN, CANFD, FBL, OTA  
+- Tools: DaVinci, CANoe, EB Tresos, VectorCAST  
 
-### BetterCV - AI CV Optimizer
-An intelligent CV optimization tool that helps job seekers tailor their resumes to specific job postings, combining job scraping capabilities with AI-powered CV optimization.
-- **Technologies:** Python, OpenAI API, FastAPI, LangChain
-- **Features:** Job scraping, CV/Resume optimization, AI-powered content suggestions
+**Languages & Frameworks**  
+- Python, FastAPI, Markdown, GitHub Actions  
+- Data Processing: NumPy, Pandas  
+- ML: PyTorch, TensorFlow
 
-### Flash Bootloader & OTA RAG Assistant
-An AI-powered information retrieval system for Flash Bootloader and OTA update technologies using Retrieval Augmented Generation (RAG).
-- **Technologies:** Python, LlamaIndex, Supabase Vector DB, FastAPI
-- **Features:** Natural language query understanding, context-aware responses, intelligent document retrieval
+---
 
-### Feedback Microservice
-Asynchronous RESTful microservice for handling user feedback with sentiment analysis capabilities.
-- **Technologies:** FastAPI, PostgreSQL, OpenAI API, Docker
-- **Features:** Async API endpoints, sentiment analysis, comprehensive API documentation
+🔬 **Highlighted Projects**
 
-### Codility Solutions
-Repository containing algorithmic problem solutions showcasing strong problem-solving abilities.
-- **Technologies:** C programming
-- **Topics:** Arrays, Sorting, Time Complexity, Counting Elements, Prefix Sums
+📚 **Advanced RAG – Unified AI Knowledge Retrieval Pipeline**  
+> A highly configurable, production-grade pipeline for **Retrieval-Augmented Generation (RAG)**. It supports **codebases and technical documents** (PDFs, DOCX), utilizing advanced document loaders, chunking, metadata enrichment, and vector storage to power **LLM-augmented semantic search** over knowledge bases.  
+Tech: Python, FastAPI, LlamaIndex, LangChain, Supabase Vector DB
 
-## 🌐 Connect With Me
+🧾 **BetterCV – AI CV Optimizer**  
+> AI-based resume optimizer tailored to job descriptions using scraping + LLMs  
+Tech: Python, FastAPI, LangChain, OpenAI API
 
-- 📧 Email: [abdelazizmoustafa63@gmail.com](mailto:abdelazizmoustafa63@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/abdelaziz-moustafa-aabab1b0](https://linkedin.com/in/abdelaziz-moustafa-aabab1b0/)
-- 📱 Phone: +49 1777420616
+🔧 **FBL & OTA RAG Assistant**  
+> AI-powered system to retrieve and answer technical questions on embedded systems  
+Tech: Python, FastAPI, LlamaIndex, Supabase
+
+💬 **Feedback Microservice**  
+> Asynchronous REST API with sentiment analysis  
+Tech: FastAPI, PostgreSQL, Docker, OpenAI API
+
+🧮 **Codility-Solutions**  
+> C algorithm challenges for time and space complexity  
+Tech: C Programming
+
+---
+
+📌 **Pinned Projects**
+
+- 🔍 [Advanced_RAG_Pipeline](https://github.com/AbdelazizMoustafa10m/Advanced_RAG_Pipeline) – End-to-end AI RAG system for code + PDF processing  
+- 🧠 [feedback_service](https://github.com/AbdelazizMoustafa10m/feedback_service) – Sentiment-aware async feedback microservice  
+- 🚗 [FBL_OTA_RAG](https://github.com/AbdelazizMoustafa10m/FBL_OTA_RAG) – Contextual query assistant for embedded bootloader systems  
+- 🔥 [FireFighting-Robot](https://github.com/AbdelazizMoustafa10m/FireFighting-Robot-using-Tiva-tm4c123gh6pm) – Flame-detecting robot built on Tiva MCU  
+- 📘 [Codility-Solutions](https://github.com/AbdelazizMoustafa10m/Codility-Solutions) – Algorithmic problem solving in C  
+
+---
+
+🌍 **Connect With Me**
+
+📧 Email: abdelazizmoustafa63@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/abdelaziz-moustafa-aabab1b0](https://www.linkedin.com/in/abdelaziz-moustafa-aabab1b0)  
+📍 Location: Stuttgart, Germany
+
+---
 
 
 
