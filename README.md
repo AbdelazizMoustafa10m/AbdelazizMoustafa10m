@@ -1,19 +1,8 @@
 # Abdelaziz Abdelrasol
 
-AI engineer at Vector Informatik in Stuttgart. I work on CAPLot, an AI coding agent for CAPL and CANoe, and on the evaluation, observability and deployment tooling around it. Before that I spent five years on embedded software, most of it automotive bootloaders.
+AI engineer at Vector Informatik in Stuttgart. I build AI coding agents and the evaluation, observability and deployment tooling around them. Before that I spent five years on embedded software, most of it automotive bootloaders.
 
 [Blog](https://abdelaziznotes.com) · [LinkedIn](https://www.linkedin.com/in/abdelaziz-abdelrasol-aabab1b0/) · abdelazizmoustafa63@gmail.com
-
-## At Vector
-
-**CAPLot**, a coding agent for CAPL and CANoe. I designed its multi-agent workflow: a main implementation agent, a scout agent that searches the CAPL documentation, and an advisor agent the main agent consults on harder tasks. I also wrote its two agent skills, one for CAPL coding knowledge and one for using the CANoe compiler CLI. With them, the task compilation rate went from 53% to 100%. I've also extended the benchmark items and evaluation metrics.
-
-**vRAGmate**, a microservice-based enterprise RAG system.
-
-- Built the Langfuse trace retention and export service: async workflows, state and checkpoint management, Azure Blob Storage, Helm deployment and tests.
-- Cut data-provider HTTP calls by 50–100x with batching and write-behind reporting, which ended the server overload during large operations.
-- Moved 5+ services from local clients to a shared Python package with common utilities and CLI tooling.
-- Led the architecture for a management UI covering access tokens, role assignments and namespaces. I compared four designs and wrote the C4 diagrams, ADRs and Kubernetes deployment plan.
 
 ## Open source
 
