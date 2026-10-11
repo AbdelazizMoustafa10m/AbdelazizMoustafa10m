@@ -1,103 +1,43 @@
-# Hi there, I'm Abdelaziz Abdelrasol 👋  
-**GenAI Engineer | Embedded Software Expert | AI Systems Developer**
+# Abdelaziz Abdelrasol
 
----
+AI engineer at Vector Informatik in Stuttgart. I work on CAPLot, an AI coding agent for CAPL and CANoe, and on the evaluation, observability and deployment tooling around it. Before that I spent five years on embedded software, most of it automotive bootloaders.
 
-🚀 **About Me**
+[Blog](https://abdelaziznotes.com) · [LinkedIn](https://www.linkedin.com/in/abdelaziz-abdelrasol-aabab1b0/) · abdelazizmoustafa63@gmail.com
 
-I'm a passionate **GenAI Engineer at Vector Informatik GmbH**, leading the development of AI-driven systems for internal clients using **Python, FastAPI, LlamaIndex, and cloud-native technologies**. With a strong foundation in **automotive embedded systems**, I've delivered Flash Bootloaders and On-the-Fly Reprogramming (OFR) for major OEMs like **Mercedes-Benz, VW, and Renault**.
+## At Vector
 
-I now focus on **Generative AI (GenAI)**—from **LLM fine-tuning and RAG systems to AI infrastructure**—while still bringing deep embedded engineering know-how into AI-powered domains.
+**CAPLot**, a coding agent for CAPL and CANoe. I designed its multi-agent workflow: a main implementation agent, a scout agent that searches the CAPL documentation, and an advisor agent the main agent consults on harder tasks. I also wrote its two agent skills, one for CAPL coding knowledge and one for using the CANoe compiler CLI. With them, the task compilation rate went from 53% to 100%. I've also extended the benchmark items and evaluation metrics.
 
----
+**vRAGmate**, a microservice-based enterprise RAG system.
 
-💼 **Current Role**
+- Built the Langfuse trace retention and export service: async workflows, state and checkpoint management, Azure Blob Storage, Helm deployment and tests.
+- Cut data-provider HTTP calls by 50–100x with batching and write-behind reporting, which ended the server overload during large operations.
+- Moved 5+ services from local clients to a shared Python package with common utilities and CLI tooling.
+- Led the architecture for a management UI covering access tokens, role assignments and namespaces. I compared four designs and wrote the C4 diagrams, ADRs and Kubernetes deployment plan.
 
-🧠 **GenAI Engineer @ Vector Informatik GmbH** (2025 – Present)  
-- Building GenAI systems using **Python**, **FastAPI**, and **LlamaIndex**  
-- Developing backend infrastructure for **LLM agents**, **prompt engineering**, and **vector databases**  
-- Contributing to AI enablement across Vector using **Azure**, **Docker**, and **Kubernetes**
+## Open source
 
-🛠 Previously:  
-- Embedded Software Engineer @ Vector Informatik (2023–2025)  
-- Embedded Software Engineer @ Bosch & Valeo (2021–2023)  
-- Instructor on Udemy – Created **C & Arduino programming courses**
+- [orchcore](https://github.com/AbdelazizMoustafa10m/orchcore) ([PyPI](https://pypi.org/project/orchcore/)): an async Python library that runs AI coding agent CLIs (Claude, Codex, Gemini, Copilot, OpenCode) as subprocesses in DAG-based phase pipelines. It normalizes their five JSONL stream formats into one event model and handles rate-limit recovery, checkpoint resume and clean shutdown.
+- [planora](https://github.com/AbdelazizMoustafa10m/planora): a CLI and Textual TUI where one agent writes an implementation plan, other agents audit it in parallel, and the planner revises it over several rounds.
+- [skills-for-agents](https://github.com/AbdelazizMoustafa10m/skills-for-agents): the agent skills I use with Claude Code and Codex CLI.
+- [Raven](https://github.com/AbdelazizMoustafa10m/Raven) (Go): takes a PRD through task breakdown, implementation, multi-agent review, fixes and a pull request.
+- [Harvx](https://github.com/AbdelazizMoustafa10m/Harvx) (Go): packages a repository into a context document for LLMs, with token budgeting and secret redaction.
 
----
+## Writing
 
-🧠 **Technical Skills**
+My most recent post is [Stop Letting LLMs Orchestrate Your AI Agents](https://abdelaziznotes.com/posts/stop-letting-llms-orchestrate-your-ai-agents). It compares interactive and headless agent orchestration using failure data from four multi-agent systems.
 
-**Generative AI & Backend Systems**  
-- LLMs, RAG (Retrieval-Augmented Generation), Fine-Tuning  
-- FastAPI, Pydantic, LangChain, OpenAI API, Supabase Vector DB  
-- Docker, Kubernetes, Azure, PostgreSQL  
+## Embedded work
 
-**Embedded Systems**  
-- Languages: C, C++  
-- Technologies: AUTOSAR, UDS, CAN, CANFD, FBL, OTA  
-- Tools: DaVinci, CANoe, EB Tresos, VectorCAST  
+| Company | Years | Work |
+|---|---|---|
+| Vector | 2023–2025 | Feature owner for Flash Bootloader (FBL) and On-the-Fly Reprogramming (OFR) in the Mercedes-Benz AP2 project |
+| Bosch | 2022–2023 | HSM integration and deliveries with the BEST tool, through T&S |
+| Valeo | 2021–2022 | Bootloaders for RH850, TriCore and ARM MCUs; Porsche ECU downgrade protection to VW requirements |
+| EL-Araby Group | 2020 | Firmware for SHARP refrigerators and TOSHIBA vacuum cleaners on Renesas MCUs |
 
-**Languages & Frameworks**  
-- Python, FastAPI, Markdown, GitHub Actions  
-- Data Processing: NumPy, Pandas  
-- ML: PyTorch, TensorFlow
+Some older C drivers are still here, for the [ATmega32A](https://github.com/AbdelazizMoustafa10m/ATmega32A-Device-Drivers) and the [TM4C123](https://github.com/AbdelazizMoustafa10m/TM4C123-Interface).
 
----
+## Tools I use
 
-🔬 **Highlighted Projects**
-
-📚 **Advanced RAG – Unified AI Knowledge Retrieval Pipeline**  
-> A highly configurable, production-grade pipeline for **Retrieval-Augmented Generation (RAG)**. It supports **codebases and technical documents** (PDFs, DOCX), utilizing advanced document loaders, chunking, metadata enrichment, and vector storage to power **LLM-augmented semantic search** over knowledge bases.  
-Tech: Python, FastAPI, LlamaIndex, LangChain, Supabase Vector DB
-
-🧾 **BetterCV – AI CV Optimizer**  
-> AI-based resume optimizer tailored to job descriptions using scraping + LLMs  
-Tech: Python, FastAPI, LangChain, OpenAI API
-
-🔧 **FBL & OTA RAG Assistant**  
-> AI-powered system to retrieve and answer technical questions on embedded systems  
-Tech: Python, FastAPI, LlamaIndex, Supabase
-
-💬 **Feedback Microservice**  
-> Asynchronous REST API with sentiment analysis  
-Tech: FastAPI, PostgreSQL, Docker, OpenAI API
-
-🧮 **Codility-Solutions**  
-> C algorithm challenges for time and space complexity  
-Tech: C Programming
-
----
-
-📌 **Pinned Projects**
-
-- 🔍 [Advanced_RAG_Pipeline](https://github.com/AbdelazizMoustafa10m/Advanced_RAG_Pipeline) – End-to-end AI RAG system for code + PDF processing  
-- 🧠 [feedback_service](https://github.com/AbdelazizMoustafa10m/feedback_service) – Sentiment-aware async feedback microservice  
-- 🚗 [FBL_OTA_RAG](https://github.com/AbdelazizMoustafa10m/FBL_OTA_RAG) – Contextual query assistant for embedded bootloader systems  
-- 🔥 [FireFighting-Robot](https://github.com/AbdelazizMoustafa10m/FireFighting-Robot-using-Tiva-tm4c123gh6pm) – Flame-detecting robot built on Tiva MCU  
-- 📘 [Codility-Solutions](https://github.com/AbdelazizMoustafa10m/Codility-Solutions) – Algorithmic problem solving in C  
-
----
-
-🌍 **Connect With Me**
-
-📧 Email: abdelazizmoustafa63@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/abdelaziz-moustafa-aabab1b0](https://www.linkedin.com/in/abdelaziz-moustafa-aabab1b0)  
-📍 Location: Stuttgart, Germany
-
----
-
-
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=AbdelazizMoustafa10M&theme=default&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=AbdelazizMoustafa10M&theme=default&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdelazizMoustafa10M&theme=default&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=AbdelazizMoustafa10M&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
----
-
-⭐️ From [AbdelazizMoustafa](https://github.com/AbdelazizMoustafa10M)
+Python (FastAPI, Pydantic, asyncio), TypeScript, C, CAPL. Langfuse, MLflow, OpenTelemetry. PostgreSQL, Qdrant, Redis, RabbitMQ. Docker, Helm, GitLab CI, Azure. CANoe, CAN, bootloaders, OFR and OTA, ASPICE.
